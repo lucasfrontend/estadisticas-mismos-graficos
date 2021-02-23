@@ -1,0 +1,604 @@
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+.horizontal-margin {
+    padding: 0 3.5rem;
+}
+
+.vertical-margin {
+    padding: 3rem;
+}
+
+
+
+.margin {
+    margin: 0 auto;
+}
+
+.bg-color {
+    background: #f2f2f2;
+    border-radius: 8px;
+}
+
+.green {
+    color: rgb(97, 123, 114);
+}
+
+.red {
+    color: rgb(196, 78, 103);
+}
+
+.yellow {
+    color: rgb(251, 177, 52);
+}
+
+
+/*--------------BANNER COVID---------------*/
+
+.covid {
+    padding-left: 20%;
+    padding-top: 7px;
+    margin-bottom: 7px;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.text-covid {
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: rgb(0, 114, 187);
+}
+
+.fontw {
+    font-weight: 700;
+}
+
+
+/*---------------- JUMBOTRON -----------------------------*/
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px
+}
+
+.list-inline li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.pull-left {
+    float:left;
+    margin-right: .3em
+}
+
+.pull-right {
+    float: right;
+    margin-left: .3em
+}
+
+.hero {
+    /* 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ */
+    min-height: 217px;
+    width: 100%;
+    border-radius: 0;
+}
+
+
+/*------------- ICON WRAPPER----------------*/
+
+.icons-wrapper {
+    Width: 100%;
+    min-Height: 192px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.atajos {
+    display: flex;
+    justify-content: space-around;
+    /* centra?????
+	text-align: center;
+	align-items: center;
+	*/
+}
+
+.container-center {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.numbers.row {
+    padding: 0px 0px 45px 0px !important;
+}
+
+.numbers {
+    min-width: 100px;
+}
+
+.numbers a {
+    text-decoration: none;
+}
+
+.center-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-icons {
+    margin: 5px;
+    overflow: hidden;
+}
+
+.icon-atajo {
+    font-size: 1.6rem;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    color: rgb(85, 85, 85);
+}
+
+.icon-atajo:hover {
+    color: rgb(0, 114, 187);
+}
+
+.circle-bg {
+    background-color: rgb(204, 204, 204);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle-bg:hover {
+    background-color: #fff;
+}
+
+.plane-rotate {
+    transform: rotate(-45deg);
+}
+
+.title-icon {
+    position: absolute;
+    left: -20px;
+    min-width: 190px;
+    color: rgb(85, 85, 85)
+}
+
+.title-size {
+    font-size: 0.9rem;
+}
+
+.container-center {
+    align-items: center;
+}
+
+
+/*------------- body --------------*/
+
+.redes-wrapper {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.compartir-en {
+    padding-right: 10px;
+}
+
+.blue-poncho {
+    color: #0072bb;
+}
+
+.icon {
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button- {
+    border: 3px solid transparent;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 8px 20px;
+    text-transform: inherit;
+    vertical-align: top;
+    white-space: normal;
+    word-break: initial;
+    text-decoration: none;
+    letter-spacing: inherit;
+    border-radius: 30px;
+    line-height: 1.42857143;
+    cursor: pointer;
+}
+
+.margin-form {
+    margin: 20px;
+}
+
+.padding-cards {
+    padding: 1rem;
+}
+
+.wrapper-descargas {
+    display: flex;
+}
+
+.numbers-wrappper {
+    display: flex;
+    justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.container-number {
+    text-align: center;
+	min-height: 10rem;
+}
+
+
+
+.circle-bg-w {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50px;
+	cursor: pointer;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.numero- {
+	font-size: 3rem;
+	align-items: center;
+	vertical-align: auto;
+	font-weight: 700;
+	line-height: 80px;
+}
+
+.no-pointer {
+    pointer-events: none;
+}
+
+.grados {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 900px) {
+    .wrapper-descargas {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .container-center {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+}
+
+
+/*----------investigaciones------------*/
+
+.flecha {}
+
+.padding-arrows{
+    padding: 1rem;
+}
+
+.icon-arrow {
+    font-size: 100px;
+}
+
+.text-icon {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.titulo {
+    overflow-wrap: break-word;
+}
+
+.verde {
+    color: #2e7d33;
+}
+
+.rojo {
+    color: #c62828;
+}
+
+@media (max-width: 900px) {
+    .icon-arrow {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 850) {
+    .text-icon {
+        /*
+        font-size: 0.5rem;
+        */
+    }
+    .bg-color {}
+}
+
+
+/*---------Estadísticas-----------------*/
+
+.overf {
+    overflow: hidden;
+}
+
+.padding- {
+	padding: 1rem;
+}
+
+.estadisticas {
+    padding: 10px;
+    max-width: 20%;
+    display: flex;
+}
+
+.left {
+    padding-left: 3rem;
+}
+
+.wrapper-graphics {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.padding-graphics {
+    padding: 3rem;
+}
+
+@media (max-width: 620px) {
+
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.wrapper-summary {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.flex-wrapper {
+    display: flex;
+}
+
+.margin-top {
+    margin-top: 0;
+}
+
+@media (max-width: 1250px) {
+    .wrapper-summary {
+        flex-direction: column;
+    }
+}
+
+.min-w {
+    min-width: 95px;
+}
+
+@media (max-width: 1280px) {
+    .flex-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 990px) {
+    .estadisticas {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+    .margin-top {
+        margin-top: 1rem;
+    }
+}
+
+#harmonizedCategory #accidentCategory #faseDeVuelo {
+    width: 750px !important;
+}
+
+
+
+@media (max-width: 780px) {
+    #operations {
+        width: 350px !important;
+
+    }
+    #eventsNumber {
+        width: 350px !important;
+    }
+    /*
+    #summary {
+        width: 350px !important;
+        height: 270px;
+    }
+    */
+    #faseDeVuelo {
+        width: 350px !important;
+    }
+    .container-graphic {
+        max-width: 780;
+    }
+    /*
+    #harmonizedCategory {
+        width: 550px !important;
+    }
+    #accidentCategory {
+        width: 550px !important;
+    }
+    */
+}
+
+@media (max-width: 620px) {
+    #operations {
+        width: 300px !important;
+
+    }
+    #eventsNumber {
+        width: 300px !important;
+
+    }
+    /*
+    #summary {
+        width: 300px !important;
+        height: 220px;
+    }
+    */
+    #faseDeVuelo {
+        width: 300px !important;
+    }
+    .container-graphic {
+        max-width: 620;
+    }
+    /*
+    #harmonizedCategory {
+        width: 450px !important;
+    }
+    #accidentCategory {
+        width: 450px !important;
+    }
+    */
+}
+
+@media (max-width: 490px) {
+    #operations {
+        width: 280px !important;
+        height: 200px;
+    }
+    #eventsNumber {
+        width: 280px !important;
+    }
+    .container-graphic {
+        max-width: 480;
+    }
+    /*
+    #summary {
+        width: 280px !important;
+        height: 200px;
+    }
+    */
+    #faseDeVuelo {
+        width: 280px !important;
+    }
+    /*
+    #harmonizedCategory {
+        width: 280px !important;
+    }
+    #accidentCategory {
+        width: 280px !important;
+    }
+    */
+}
+
+
+/* -------------- FOOTER -----------------*/
+
+.jst {
+    width: 100%;
+    height: 50px;
+    background-image: url("https://so.jst.gob.ar/wp-content/uploads/2020/05/logo-wp.png");
+    background-repeat: no-repeat;
+}
+
+.footer_bottom {
+    background: #37bbed;
+    padding: 10px 0;
+}
+
+.footer_bottom p.crp {
+    float: left;
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-box {
+    background: #f3faff;
+}
+
+.padding-top {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.top {
+    padding-top: 3rem;
+}
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+
+.image-responsive {
+    width: 288px;
+    height: 40px;
+    background-image: url('../images/logo_argentina_unida-blanco.svg');
+    background-repeat: no-repeat;
+    margin: 23px 0 43px 0;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+.icon-plane {
+    font-size: 50px;
+    transform: rotate(-45deg);
+}
+
+.resumen {
+    padding-left: 30px;
+}
+
+.cards-wrapper {
+    background-color: #eeeeee;
+    padding: 30px;
+}
+
+.cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.graficos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

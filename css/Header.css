@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+.green {
+    color: rgb(97, 123, 114);       
+}
+
+.red {
+    color:	rgb(196, 78, 103);      
+}
+
+.yellow {
+    color: rgb(251, 177, 52);      
+}
+
+
+
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+
+.icon-plane {
+    font-size: 50px;
+    transform: rotate(-45deg);
+}
+.resumen{
+    padding-left: 30px;
+}
+.cards-wrapper{
+    background-color: #eeeeee;
+    padding: 30px;
+
+}
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.graficos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+

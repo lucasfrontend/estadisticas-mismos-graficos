@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Site Metas -->
+    <title>estadisticas &#8211; JST</title>
+    <link rel="https://api.w.org/" href="https://so.jst.gob.ar/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://so.jst.gob.ar/wp-json/wp/v2/pages/84" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://so.jst.gob.ar/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://so.jst.gob.ar/wp-includes/wlwmanifest.xml" />
+    <link rel="canonical" href="https://so.jst.gob.ar/estadisticas/" />
+    <link rel='shortlink' href='https://so.jst.gob.ar/?p=84' />
+    <link rel="alternate" type="application/json+oembed" href="https://so.jst.gob.ar/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fso.jst.gob.ar%2Festadisticas%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://so.jst.gob.ar/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fso.jst.gob.ar%2Festadisticas%2F&#038;format=xml" />
+    <link rel="alternate" href="https://so.jst.gob.ar/estadisticas/" hreflang="es" />
+    <link rel="alternate" href="https://so.jst.gob.ar/en/stats/" hreflang="en" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="JST - Junta de Seguridad en el Transporte">
+    <link rel="icon" href="https://so.jst.gob.ar/wp-content/uploads/2018/09/favicon-100x100.png" sizes="32x32" />
+    <link rel="icon" href="https://so.jst.gob.ar/wp-content/uploads/2018/09/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://so.jst.gob.ar/wp-content/uploads/2018/09/favicon.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- CSS  local-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--HIGHTCH-->
+    <script src="https://code.highcharts.com/highcharts.src.js"></script>
+
+    <!-- Poncho CSS -->
+    <link rel="stylesheet" href="css/poncho.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/argentina.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/documentacion.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/poncho.min.css" />
+    <link rel="stylesheet" href="poncho-master/dist/icono-arg.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/roboto-fontface.css" />
+    <link rel="stylesheet" href="poncho-master/_site/iconos_files/icono-arg.css" />
+    <link rel="stylesheet" href="poncho-master/dist/css/miargentina.css" />
+    <link rel="stylesheet" href="poncho-master/_site/css/docs.css " />
+    <link rel="stylesheet" href="poncho-master/_site/css/poncho_lab.css" />
+    <link rel="stylesheet" href="poncho-master/_site/css/prism.css" />
+    <link rel="stylesheet" href="poncho-master/src/css/poncho.css" />
+    <link rel="stylesheet" href="poncho-master/src/css/modules/_jumbotron.scss" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <!-----------------------------BANER COVID--------------------->
+    <div class="covid">
+        <a href="https://www.argentina.gob.ar/salud/coronavirus-COVID-19">
+            <span class="text-covid"><span class="fontw">Coronavirus COVID-19 </span>Conocé información y recomendaciones del Ministerio de Salud</span>
+        </a>
+    </div>
+    <!------------------------------JUMBOTRON --------------------->
+    <section class="jumbotron hero" style="background-image: url('images/pexels-pixabay-358319.jpg');">
+        <div class="jumbotron_bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ol class="breadcrumb pull-left">
+                            <li><a href="https://www.argentina.gob.ar/">Argentina / </a></li>
+                            <li class="active"><a href="https://www.argentina.gob.ar/transporte"><span>Ministerio de Transporte / </span></a></li>
+                            <li class="active"><span> Junta de Seguridad en el Transporte (JST)</span></li>
+                            <li class="active"><span></span></li>
+                        </ol>
+                        <ul class="list-inline pull-right">
+                            <li><a href="https://www.argentina.gob.ar/jst/transparencia" class="search"><i class="glyphicon glyphicon-search"></i>Transparencia</a></li>
+                            <li><a href="https://www.argentina.gob.ar/jst/institucional">Institucional</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <h2>Aviación</h2>
+            <span>Junta de Seguridad en el Transporte</span>
+        </div>
+    </section>
+    <!--------------------------------ICONOS-WRAPPER------------------------------->
+    <div class="icons-wrapper">
+        <div class="row atajos container-center">
+            <div class="row numbers margin-icons">
+                <div class="col-md-4">
+                    <a href="https://www.argentina.gob.ar/jst/aviacion">
+                        <div class="circle-bg">
+                            <i class="fas fa-plane icon-atajo plane-rotate"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Aéreo</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4">
+                    <a href="https://www.argentina.gob.ar/jst/ferroviario">
+                        <div class="circle-bg">
+                            <i class="fas fa-train icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Ferroviario</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4 panel">
+                    <a href="https://www.argentina.gob.ar/jst/maritimo">
+                        <div class="circle-bg">
+                            <i class="fas fa-ship icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Marítimo, Fluvial y Lacustre</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4 panel">
+                    <a href="https://www.argentina.gob.ar/jst/automotor">
+                        <div class="circle-bg">
+                            <i class="fas fa-road icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Automotor</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4 panel">
+                    <a href="https://www.argentina.gob.ar/jst/multimodal">
+                        <div class="circle-bg">
+                            <i class="fas fa-globe-asia icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7>Multimodal</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row numbers margin-icons">
+                <div class="col-md-4 panel">
+                    <a href="https://www.argentina.gob.ar/jst/automotor">
+                        <div class="circle-bg">
+                            <i class="icono-arg-coronavirus icon-atajo"></i>
+                        </div>
+                        <div class="title-icon">
+                            <h7 class="title-size">Investigación COVID-<br>19</h7>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------BODY --------------------------------------->
+
+    <!----------INPUT SELECT------->
+    <div class="horizontal-margin ">
+        <div class="">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="">Estadísticas</h1>
+                    <form class="form-horizontal" action="https://so.jst.gob.ar/estadisticas/">
+                        <input type="hidden" name="page_id" value="84">
+                        <div class="row">
+                            <div class="col-lg-1">
+                                <label for="year"><h3>Año</h3></label>
+                            </div>
+                            <div class="col-lg-2">
+                                <select name="anio" id="year" class="form-control min-w">
+                                    <option value="2021" selected="selected">2021</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2">
+                                <input class="button- btn-primary margin-top" type="submit" value="Buscar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------RESUMEN----------------------------------------->
+
+    <div class="horizontal-margin ">
+        <div class="row bg-color">
+            <div class="col-sm-6 ">
+                <h2 class="">Resumen</h2>
+                <div class="">
+                    <div class="numbers-wrappper">
+                        <div class="row numbers">
+                            <div class="padding-">
+                                <div class="container-number bg-white">
+                                    <div class="circle-bg-w no-pointer">
+                                        <div class="text-primary numero-">39</div>
+                                    </div>
+                                    <span class="text-icon">Accidentes</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row numbers">
+                            <div class="padding-">
+                                <div class="container-number bg-white">
+                                    <div class="circle-bg-w no-pointer">
+                                        <div class="text-primary numero-">7</div>
+                                    </div>
+                                    <span class="text-icon">Accidentes <br> Fatales</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row numbers">
+                            <div class="padding-">
+                                <div class="container-number bg-white">
+                                    <div class="circle-bg-w no-pointer">
+                                        <div class="text-primary numero-">8</div>
+                                    </div>
+                                    <span class="text-icon">Destruidas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 ">
+                <div class="wrapper-descargas ">
+                    <div class="padding-cards">
+                        <div class="padding-bottom">
+                            <h2 class="text-primary">Categorías con más sucesos</h2>
+                            <h7>SCF-NP (System/component failure or malfunction (No Powerplant): 2 sucesos</h7>
+                            <h2 class="text-primary">Categorías con más fatalidades</h2>
+                            <h7>LOC-I (Loss of control - inflight): 5 fatalidades bbbbbgfgffdfdfsfsdf</h7>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CANTIDAD DE SUCESOS Y OPERACIONES MENSUALES -->
+    <div class="container-fluid horizontal-margin">
+        <div class="row">
+            <div class="col-lg-6 margin-auto">
+                <!--
+                    <canvas id="eventsNumber" width="550px" height="370px"></canvas>
+                -->
+                <h2><span>Cantidad de Sucesos</span></h2>
+                <h5>(2015 -2020)</h5>
+                <div id="sucesos">
+                    <h3>Cantidad de sucesos</h3> No hay datos para mostrar</div>
+                <script>
+                    (function() {
+                        var chartColors = {
+                            blue: "rgb(106, 147, 181)",
+                            green: 'rgb(97, 123, 114)',
+                            red: 'rgb(196, 78, 103)',
+                            yellow: 'rgb(251, 177, 52)',
+                            purple: 'rgb(151, 109, 127)',
+                            purple2: 'rgb(103, 97, 116)',
+                            white: 'rgb(255, 255, 255)'
+                        };
+
+                        var json = {
+                            "cantidades": [
+                                ["Accidente", 9],
+                                ["Incidente grave", 1],
+                                ["Incidente", 1],
+                                ["Intervenci\u00f3n", 5]
+                            ]
+                        };
+                        var xAxis = [],
+                            yAxis = [];
+                        for (var i = 0; i < json.cantidades.length; i++) {
+                            xAxis.push(json.cantidades[i][0]);
+                            yAxis.push(json.cantidades[i][1]);
+                        }
+                        var lst = ["Accidente", "Incidente grave", "Incidente", "Intervenci\u00f3n"];
+                        for (var k in lst) {
+                            var i = lst[k];
+                            var e = false;
+                            for (var j = 0; j < xAxis.length; j++) {
+                                if (xAxis[j] === i) {
+                                    e = true;
+                                    break;
+                                }
+                            }
+                            if (e === false) {
+                                xAxis.splice(k, 0, i);
+                                yAxis.splice(k, 0, 0);
+                            }
+                        }
+                        jQuery(function() {
+                            Highcharts.chart('sucesos', {
+                                chart: {
+                                    type: 'bar',
+                                    selectionMarkerFill: "rgba(69,114,167,0.25)",
+
+                                },
+                                title: false,
+                                credits: {
+                                    enabled: false
+                                },
+                                xAxis: {
+                                    categories: xAxis
+                                },
+                                yAxis: {
+                                    title: "Cantidad",
+                                    allowDecimals: false
+                                },
+                                legend: {
+                                    enabled: true,
+                                },
+                                series: [{
+                                    name: "Cantidad",
+                                    data: yAxis
+                                }],
+                            });
+                        });
+                    })();
+                </script>
+            </div>
+            <div class="col-lg-6 margin-auto">
+                <h2><span>Operaciones - Mensual</span></h2>
+                <h5>(2015 -2020)</h5>
+                <!--
+                <canvas id="operations" width="550px" height="500px"></canvas>
+                -->
+                <div id="operaciones-mensual">
+                    <h3>Operaciones por mes</h3> No hay datos para mostrar</div>
+                <script>
+                    (function() {
+                        var chartColors = {
+                            blue: "rgb(106, 147, 181)",
+                            green: 'rgb(97, 123, 114)',
+                            red: 'rgb(196, 78, 103)',
+                            yellow: 'rgb(251, 177, 52)',
+                            purple: 'rgb(151, 109, 127)',
+                            purple2: 'rgb(103, 97, 116)',
+                            white: 'rgb(255, 255, 255)'
+                        };
+                        var json = {
+                            "cantidades": [
+                                ["Enero", 9, 0, 2, 0, 0, 1],
+                                ["Febrero", 2, 2, 0, 0, 0, 0],
+                                ["Marzo", 0, 0, 0, 0, 0, 0],
+                                ["Abril", 0, 0, 0, 0, 0, 0],
+                                ["Mayo", 0, 0, 0, 0, 0, 0],
+                                ["Junio", 0, 0, 0, 0, 0, 0],
+                                ["Julio", 0, 0, 0, 0, 0, 0],
+                                ["Agosto", 0, 0, 0, 0, 0, 0],
+                                ["Septiembre", 0, 0, 0, 0, 0, 0],
+                                ["Octubre", 0, 0, 0, 0, 0, 0],
+                                ["Noviembre", 0, 0, 0, 0, 0, 0],
+                                ["Diciembre", 0, 0, 0, 0, 0, 0]
+                            ]
+                        };
+                        var series = [],
+                            x = [],
+                            ag = [],
+                            ta = [],
+                            cr = [],
+                            sd = [],
+                            xq = [],
+                            ra = [];
+                        for (var i = 0; i < json.cantidades.length; i++) {
+                            var c = json.cantidades[i];
+                            x.push(c[0]);
+                            ag.push(c[1]);
+                            ta.push(c[2]);
+                            cr.push(c[3]);
+                            sd.push(c[4]);
+                            xq.push(c[5]);
+                            ra.push(c[6]);
+                        }
+                        series.push({
+                            type: 'line',
+                            name: 'Non-Commercial Operations',
+                            data: ag,
+                            dataLabels: {
+                                enabled: true
+                            }
+                        });
+                        series.push({
+                            type: 'line',
+                            name: 'Specialised Operations',
+                            data: ta,
+                            dataLabels: {
+                                enabled: true
+                            }
+                        });
+                        series.push({
+                            type: 'line',
+                            name: 'Commercial Air Transport',
+                            data: cr,
+                            dataLabels: {
+                                enabled: true
+                            }
+                        });
+                        series.push({
+                            type: 'line',
+                            name: 'Nationally Regulated Operations (State Operations)',
+                            data: sd,
+                            dataLabels: {
+                                enabled: true
+                            }
+                        });
+                        series.push({
+                            type: 'line',
+                            name: 'Illegal',
+                            data: xq,
+                            dataLabels: {
+                                enabled: true
+                            }
+                        });
+                        series.push({
+                            type: 'line',
+                            name: 'Unknown',
+                            data: ra,
+                            dataLabels: {
+                                enabled: true
+                            }
+                        });
+                        jQuery(function() {
+                            Highcharts.chart('operaciones-mensual', {
+                                title: false,
+
+                                credits: {
+                                    enabled: false
+                                },
+                                xAxis: {
+                                    categories: x
+                                },
+                                yAxis: {
+                                    title: {
+                                        text: "Cantidad"
+                                    },
+                                    min: 0,
+                                    allowDecimals: false
+                                },
+                                series: series,
+
+                            });
+                        });
+                    })();
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!----------------GRÁFICO TORTA------------------>
+    <div class="">
+        <div class="container-fluid">
+            <div class="row bg-gray">
+
+                <div class=" col-md-6">
+                    <div class="padding-graphics">
+                        <h2>RESUMEN</h2>
+                        <h5>(2015 -2020)</h5>
+                        <br>
+                        <p>Del total de sucesos investigados durante los últimos 4 años, la mayor parte corresponde a sucesos de aeronaves que realizaban operaciones comprendidas dentro de la aviación general. Si bien las operaciones de trabajo aéreo, estan
+                            bajo la definición de aviación general, a fines estadísticos se contemplan por separado.
+                            <br>
+                            <br> Nota: los sucesos en los que no se determino la operación que realizaba la aeronave (no denuncia, presunción de ilícito, remoción de restos, etc.) se clasifican como "se desconoce".
+                            <br> Los sucesos en los que intervienen dos aeronaves se contabilizan como dos operaciones aéreas.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="padding-graphics ">
+                        <!--
+                        <canvas id="summary" class="margin" min-width="300px" min-height="300px"></canvas>
+                    -->
+                        <div id="sucesos-operacion">No hay datos para mostrar</div>
+                        <script>
+                            (function() {
+                                var json = {
+                                    "cantidades": [
+                                        ["Specialised Operations", 58],
+                                        ["Nationally Regulated Operations (State Operations)", 4],
+                                        ["Commercial Air Transport", 109],
+                                        ["Non-Commercial Operations", 291],
+                                        ["Unknown", 9],
+                                        ["Illegal", 4]
+                                    ],
+                                    "anio": 2020
+                                };
+                                jQuery(function() {
+                                    Highcharts.chart('sucesos-operacion', {
+                                        chart: {
+                                            type: 'pie',
+                                            backgroundColor: '',
+                                        },
+                                        title: {
+                                            text: null
+                                        },
+                                        credits: {
+                                            enabled: false
+                                        },
+                                        xAxis: {
+                                            categories: json.categorias
+                                        },
+                                        yAxis: {
+                                            title: "Cantidad",
+                                            allowDecimals: false,
+                                            min: 0
+                                        },
+                                        legend: {
+                                            enabled: true
+                                        },
+                                        series: [{
+                                            name: "Porcentaje",
+                                            data: json.cantidades
+                                        }],
+                                        plotOptions: {
+                                            pie: {
+                                                showInLegend: true,
+                                                dataLabels: {
+                                                    enabled: true,
+                                                    distance: -30,
+                                                    format: '{point.y}<br>{percentage:.2f}%'
+                                                }
+                                            }
+                                        },
+                                        tooltip: {
+                                            pointFormat: "Cantidad: <strong>{point.y}</strong><br>Porcentaje: <strong>{point.percentage:.2f}%</strong>"
+                                        },
+                                    });
+                                });
+                            })();
+                        </script>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- SUCESOS POR FASE DE VUELO-->
+
+    <div class="margin-auto center top">
+        <h2><span>Sucesos por fase de vuelo </span></h2>
+        <h5>(2015 -2020)</h5>
+        <div class="container">
+            <div class="row">
+                <!-- <canvas id="faseDeVuelo" class="margin-auto center" width="auto" height="auto"></canvas>
+                -->
+                <div id="sucesos-fase" class="margin-auto">
+                    <h3>Sucesos por Fase de Vuelo</h3> No hay datos para mostrar</div>
+                <script>
+                    (function() {
+                        var json = {
+                            "fases": ["Rodaje salida", "Despegue", "Ascenso", "Crucero", "Maniobras", "Aproximaci\u00f3n", "Descenso", "Aterrizaje", "Rodaje a plataforma", "Estacionado", "Se desconoce"],
+                            "cantidades": [26, 55, 39, 116, 26, 35, 2, 130, 34, 14, 4]
+                        };
+                        jQuery(function() {
+                            Highcharts.chart('sucesos-fase', {
+                                chart: {
+                                    type: 'column'
+                                },
+                                title: false,
+                                /*{
+                                    text: 'Sucesos por fase de vuelo (2016-2020)'
+                                },*/
+                                credits: {
+                                    enabled: false
+                                },
+                                xAxis: {
+                                    categories: json.fases
+                                },
+                                yAxis: {
+                                    title: "Sucesos",
+                                    allowDecimals: false,
+                                    min: 0
+                                },
+                                legend: {
+                                    enabled: true
+                                },
+                                series: [{
+                                    name: "Sucesos",
+                                    type: 'column',
+                                    data: json.cantidades,
+                                    dataLabels: true
+                                }],
+                                tooltip: {
+                                    shared: true
+                                },
+                            });
+                        });
+                    })();
+                </script>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <!-- SUCESOS POR CATEGORIA, CONTENEDOR -->
+    <div class="horizontal-margin padding-graphics">
+        <div class="row bg-color">
+            <div class="col-md-6">
+                <div class="accidents-wrapper padding-graphics">
+                    <h2><span>Sucesos por Categoría</span></h2>
+                    <h5>(2015 -2020)</h5>
+                    <div class="full">
+                        <p>
+                            El <a href="http://www.intlaviationstandards.org/apex/f?p=240:1"><span class="link-">CAST/ICAO Common Taxonomy Team (CICTT)</span></a> desarrolló un conjunto de definiciones y taxonomias comunes para los sistemas de notificación
+                            de incidentes y accidentes de aviación; para la mejora en la capacidad de la comunidad aeronáutica en centrarse en temas comunes de seguridad operacional.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="accidents-wrapper padding-graphics">
+                    <h2><span>Categorías armonizadas de sucesos</span></h2>
+                    <h5>(2015 -2020)</h5>
+                    <p>IATA y OACI, implementaron categorías armonizadas de sucesos, para la integración de datos, entre organizaciones, unificando métodos de análisis y métricas para el futuro, de acuerdo The Global Safety Information Exchange (GSIE)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACCIDENTES POR CATEGORIA ARMONIZADA-->
+    <div class="margin-auto center">
+        <h2><span>Sucesos por categoría armonizada</span></h2>
+        <h5>(2015 -2020)</h5>
+
+        <div class="container">
+            <div class="row">
+
+                <div id="sucesos-categorias" class="margin-auto">
+                    <h3>Sucesos por categoría armonizada (2016-2020)</h3> No hay datos para mostra
+                </div>
+                <!--
+                <canvas id="harmonizedCategory" class="margin-auto center top" width="auto" height="auto"></canvas>-->
+
+            </div>
+        </div>
+        <script>
+            (function() {
+                var json = {
+                    "categorias": ["CFIT (Controlled fligth into or toward terrain)", "LOC-I (Loss of control - inflight)", "RS (Runway Safety)", "GS (Ground Safety)", "OD (Operational Damage)", "MED ", "OTHER", "UNK"],
+                    "cantidades": {
+                        "Commercial Air Transport": [1, 0, 13, 11, 52, 5, 31, 1],
+                        "Illegal": [1, 0, 1, 1, 0, 0, 1, 1],
+                        "Nationally Regulated Operations (State Operations)": [0, 1, 2, 1, 0, 0, 2, 0],
+                        "Non-Commercial Operations": [17, 30, 69, 27, 133, 2, 71, 0],
+                        "Specialised Operations": [3, 5, 9, 2, 28, 0, 19, 1],
+                        "Unknown": [1, 3, 1, 0, 4, 0, 3, 0]
+                    },
+                    "anio": 2020
+                };
+                var series = [];
+                for (var i in json.cantidades) {
+                    series.push({
+                        name: i,
+                        type: 'column',
+                        data: json.cantidades[i],
+                        dataLabels: true,
+                        visible: true
+                    });
+                }
+                jQuery(function() {
+                    Highcharts.chart('sucesos-categorias', {
+                        chart: {
+                            type: 'column'
+                        },
+                        title: false,
+                        credits: {
+                            enabled: false
+                        },
+                        xAxis: {
+                            categories: json.categorias
+                        },
+                        yAxis: {
+                            title: "Cantidad",
+                            allowDecimals: false,
+                            min: 0
+                        },
+                        legend: {
+                            enabled: true
+                        },
+                        series: series,
+                        tooltip: {
+                            shared: true
+                        },
+                    });
+                });
+            })();
+        </script>
+
+    </div>
+
+
+
+
+    <!-- ACCIDENTES POR CATEGORIA-->
+    <div class="margin-auto center top">
+        <h2><span>Accidentes por categoría</span></h2>
+        <h5>(2015 -2020)
+            <h5>
+                <div class="container">
+                    <div class="row ">
+                        <div id="accidentes-categoria" class="margin-auto">
+                            <h3>Accidentes por categoría (2016-2020)</h3> No hay datos para mostrar
+                        </div>
+                        <!--
+                        <canvas id="accidentCategory" class="margin-auto center top" width="auto" height="auto"></canvas>
+                    -->
+                    </div>
+                </div>
+                <script>
+                    (function() {
+                        var json = {
+                            "categorias": ["SCF-PP (Powerplant failure or malfunction)", "LOC-I (Loss of control - inflight)", "ARC (Abnormal runway contact)", "SCF-NP (System\/component failure or malfunction (No Powerplant)", "RE (Runway Excursion)", "LALT (Low altitude operations)", "LOC-G (Loss of control -ground)", "F-POST (Fire\/smoke Post-Impact)", "CTOL (Collision with obstacle during take-off and landing)", "FUEL (Fuel related)", "OTHR (Other)", "CFIT (Controlled fligth into or toward terrain)", "ADRM (Aerodrome)", "USOS (Undershoot\/overshoot)", "UIMC (Unintended Flight in IMC)", "AMAN (Abrupt Maneuvre)", "GCOL (Ground Collision)", "F-NI (Fire\/smoke non-impact)", "GTOW (Glider towing related events)", "RI (Runway Incursion)", "MAC (Airprox\/ACAS alert\/loss of separation\/ midair collision)", "NAV (Navigation Error)", "LOLI (Loss of lifting conditions en-route)", "RAMP (Ground Handling)", "WILD (Collision Wildlife)", "WSTRW (Windshear or thunderstorm)"],
+                            "datos": [{
+                                "name": "Accidentes",
+                                "data": [48, 38, 38, 25, 25, 19, 17, 11, 9, 9, 7, 6, 4, 4, 3, 3, 3, 2, 2, 2, 1, 1, 1, 1, 1, 1]
+                            }, {
+                                "name": "Accidentes fatales",
+                                "data": [0, 17, 1, 2, 1, 6, 0, 8, 0, 0, 1, 4, 0, 0, 3, 2, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0]
+                            }],
+                            "anio": 2020
+                        };
+                        for (var i = 0; i < json.datos.length; i++) {
+                            json.datos[i].type = 'column';
+                            json.datos[i].dataLabels = {
+                                'enabled': true
+                            };
+                        }
+                        jQuery(function() {
+                            Highcharts.chart('accidentes-categoria', {
+                                chart: {
+                                    type: 'column',
+                                },
+                                title: false,
+                                credits: {
+                                    enabled: false
+                                },
+                                xAxis: {
+                                    categories: json.categorias
+                                },
+                                yAxis: {
+                                    title: "Cantidad",
+                                    allowDecimals: false,
+                                    min: 0
+                                },
+                                legend: {
+                                    enabled: true,
+                                },
+                                series: json.datos,
+                                tooltip: {
+                                    shared: true
+                                },
+                            });
+                        });
+                    })();
+                </script>
+
+    </div>
+    </div>
+    <!--
+    <footer class="">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class=" full">
+                        <p class="black">SCF-PP (Powerplant failure or malfunction)</p>
+                        <p class="back">ARC (Abnormal runway contact)</p>
+                        <p class="back">LOC-I (Loss of control, inflight)</p>
+                        <p class="black">SCF-NP (System/ component faulure or malcfuntion - No powerplant)</p>
+                        <p class="black">RE (]Runway excursion)</p>
+                        <p class="black">LALT (Low altitude operations)</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class=" full">
+                        <p class="black">SCF-PP (Powerplant failure or malfunction)</p>
+                        <p class="back">ARC (Abnormal runway contact)</p>
+                        <p class="back">LOC-I (Loss of control, inflight)</p>
+                        <p class="black">SCF-NP (System/ component faulure or malcfuntion - No powerplant)</p>
+                        <p class="black">RE (]Runway excursion)</p>
+                        <p class="black">LALT (Low altitude operations)</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class=" full ">
+                        <p class="black">SCF-PP (Powerplant failure or malfunction)</p>
+                        <p class="back">ARC (Abnormal runway contact)</p>
+                        <p class="back">LOC-I (Loss of control, inflight)</p>
+                        <p class="black">SCF-NP (System/ component faulure or malcfuntion - No powerplant)</p>
+                        <p class="black">RE (]Runway excursion)</p>
+                        <p class="black">LALT (Low altitude operations)</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class=" full">
+                        <p class="black">SCF-PP (Powerplant failure or malfunction)</p>
+                        <p class="back">ARC (Abnormal runway contact)</p>
+                        <p class="back">LOC-I (Loss of control, inflight)</p>
+                        <p class="black">SCF-NP (System/ component faulure or malcfuntion - No powerplant)</p>
+                        <p class="black">RE (]Runway excursion)</p>
+                        <p class="black">LALT (Low altitude operations)</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    -->
+
+
+
+
+
+
+    <!--------------------------------FOOTER -------------------------------------->
+    <footer class="footer-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 ">
+                    <div class="footer_blog full white_fonts">
+                        <h3 class="padding-top">Trámites</h3>
+                        <a class="links" href="https://www.argentina.gob.ar/turnos">
+                            <p class="black">Turnos</p>
+                        </a>
+                        <a class="links" href="https://www.argentina.gob.ar/jefatura/innovacion-publica/administrativa/tramites-a-distancia">
+                            <p class="back">Trámites a distancia</p>
+                        </a>
+                        <a class="links" href="https://www.argentina.gob.ar/miargentina/mesadeayuda">
+                            <p class="back">Atención al ciudadano</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="footer_blog full white_fonts padding-bottom">
+                        <h3 class="padding-top">Acerca de la República Argentina</h3>
+                        <a class="links" href="https://www.argentina.gob.ar/pais">
+                            <p class="black">Nuentro país</p>
+                        </a>
+
+                        <a class="links" href="https://www.argentina.gob.ar/normativa">
+                            <p class="back">Leyes argentinas</p>
+                        </a>
+
+                        <a class="links" href="https://www.argentina.gob.ar/organismos">
+                            <p class="back">Organismos</p>
+                        </a>
+                        <a class="links" href="https://www.argentina.gob.ar/jefatura/mapa-del-estado">
+                            <p class="black">Mapa del Estado</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="footer_blog full white_fonts">
+                        <h3 class="padding-top">Acerca de Argentina.gob.ar</h3>
+                        <a class="links" href="https://www.argentina.gob.ar/acerca">
+                            <p class="black">Acerca de este sitio</p>
+                        </a>
+                        <a class="links" href="https://www.argentina.gob.ar/terminos-y-condiciones">
+                            <p class="back">Términos y condiciones</p>
+                        </a>
+                        <a class="links" href="https://www.argentina.gob.ar/sugerencias">
+                            <p class="back">Sugerencias</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer_bottom celeste ">
+        <div class="container celeste ">
+            <div class="row ">
+                <div class="col-12 ">
+                    <div class="image-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.highcharts.com/highcharts.src.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/e758643b16.js" crossorigin="anonymous"></script>
+
+        <script src="./js/shave.js"></script>
+        <script src="./js/jquery2.js"></script>
+        <script src="./js/jquery3.js"></script>
+        <script type='text/javascript' src='https://so.jst.gob.ar/wp-content/themes/understrap/js/theme.min.js?ver=0.1.1562778887' id='understrap-scripts-js'></script>
+        <script type='text/javascript' src='https://so.jst.gob.ar/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+
+</body>
+
+</html>
